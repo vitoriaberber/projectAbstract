@@ -13,7 +13,7 @@
 }
 
 html, body {
-    width: 97vw;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -70,7 +70,7 @@ main {
 
 main > section#suporte {
     background-color: var(--cor02);
-    width: 97vw;
+    width: 100vw;
     text-align: center;
     height: 80vh;
     padding-top: 190px;
