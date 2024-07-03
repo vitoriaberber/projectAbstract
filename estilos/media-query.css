@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@media screen and (width >= 768px) and (width <= 992px) {
+    body {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        transition: justify-content .5s;
+    }
+
+    main {
+        background: white url(../imagens/fundo-branco.jpg) center bottom no-repeat;
+        background-size: cover;
+    }
+
+    main > section#ajuda {
+        width: 100vw;
+        padding-top: 170px;
+        font-size: 2em;
+        
+    }
+
+    main > section.stwo {
+        display: inline-block;
+        width: 300px;
+        height: 200px;
+        margin: 60px 60px 30px 60px;
+        padding: 0px;
+        transition: width .5s, height .5s;
+    }
+}
+
+@media screen and (width >=992px) {
+    body {
+        width: 99vw;
+        overflow-x: hidden;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        transition: justify-content .5s;
+    }
+
+    main {
+        background: white url(../imagens/fundo-branco.jpg) top center no-repeat;
+        background-size: cover;
+    }
+
+    main > section#ajuda {
+        width: 99vw;
+        padding-top: 170px;
+        font-size: 3em;
+    }
+
+    main > section.stwo {
+        display: inline-block;
+        width: 300px;
+        height: 200px;
+        margin: 60px 60px 30px 60px;
+        padding: 0px;
+        transition: width .5s, height .5s;
+    }
+
+    footer p {
+        text-align: right;
+        padding: 0px 10px 20px 0px;
+
+    }
+}
+
