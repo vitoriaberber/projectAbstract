@@ -78,8 +78,8 @@ main > section#suporte {
 
 main > section#suporte > h1 {
     font-size: 3em;
-    transition: font-size .5s;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.329);
+    transition: font-size .5s;
 }
 
 main > section.segunda-parte {
